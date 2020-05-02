@@ -1,0 +1,84 @@
+PROGRAMACION ORIENTADA A OBJETOS
+
+-Paradigma de programacion similar a la programacion estructurada)tambien es un paradigma
+
+-Existe porque durante mucho tiempo se trabajaba con la estructurada, si bien se podia reutilizar, el codigo
+carecia de la posibilidad de esquema de representar elementos de la vida real que forman parte de un dominio de 
+un problema
+
+-Antes se programaba desordenadamente, codigo espaguetti
+
+-POB, se crean elementos que por medio de logica se exponen a otros elementos para que puedan ser consumidos
+-Encapsular en elementos logicos, funcionalidad que pueda ser expuesta y ser consumida por otros elementos
+-POB promueve poder utilizar o reutilizar codigo de una manera ordenada
+-Una libreria es una agrupaciond de clases
+
+Ejemplo Clasico: maquina lector de java, no hay que pensar que como hace la computadora para saber que una letra, es una letra
+
+Dominio del problema: Conformado por elementos comunes para el problema, problemas distintos pueden tener dominios de problemas similares
+Todo lo que esta relacionado con el problema que yo tengo que resolver, relacionado con el dia a dia del cliente
+
+Abstraccion: Proceso por el cual yo tomo el dominio de un problema y listo todos aquellos componentes que son similares y que tienen caracteristicas
+especificas, convierto a software.
+Encontrar elementos esenciales de un problema 
+
+*Modelo Conceptual:
+-Lo primero es identificar todos los elementos(cosas, reales o abstractas, sujetos en una oracion)
+-Una vez que tengo la lista de elementos, busco los adjetivos que los califiquen(caracteristicas que van a tener los elementos)
+-Identifico los verbos(acciones que son realizadas por alguien) por lo tanto si el cliente hace un registro en linea, se que tengo que hacer un registro. REGISTRAR
+-Junto para cada cosa cuales son las caracteristicas que los van a conformar y para cada cosa las acciones que puede realizar
+
+Un objeto va a tener caracteristicas y comportamiento(modifica el estado) comportamiento son los metodos
+	-Las caracteristicas reflejan el estado, como estan en el tiempo
+
+Objeto representa la unidad basica de construccion, lo que voy a generar cuando estoy programando
+
+Las variables pasan a ser atributos en el paradigma de Orientacion a Objetos
+	-Objetos no tienen variables
+	-Pero se pueden crear variables
+	-Datos
+		-Primitivos: int, double, etc
+		-Complejos: arreglos y matrices
+		-Clases: creadas por el programador, se pueden crear variables de este tipo de dato
+
+Las rutinas o funciones pasan a ser METODOS, en el paradigma de Orientacion a Objetos
+
+Representacion entre objetos de software:
+
+Ventajas
+	-Mas rapido
+	-Aumento calidad
+	-Mantenimiento sencillo
+
+CONCEPTOS ESCENCIALES
+-Abstraccion
+-Encapsulamiento: Propiedad de todo objeto de ocultar como es que trabaja, permite que pueda usar muchas librerias
+	-Un objeto no conozca la informacion del otro sin pedir permiso, puede utilizar los servicios de otro objeto
+	-Si una clase no tuviera los metodos publicos, las demas clases no tendrian acceso a esos metodos
+-Modularidad:
+-Jerarquia:
+
+Objeto Externo: relacionado con aquellas operaciones o comportamiento del objeto que el programador permite que los demas vean.Estado y mensajes
+Objeto Interno: totalidad de metodos y de atributos
+
+Los objetos se comunican por medio de mensajes(nombre de metodos)
+
+********************************************************************************************************
+**************************************************CLASE*************************************************
+********************************************************************************************************
+PUBLIC Y PRIVATE: Identificadores de acceso
+GET Y SET: Metodos de acceso
+-Es una plantilla o molde por medio del cual digo como va a ser mi objeto
+-Yo defino los atributos y metodos
+-Es el archivo, public class...
+-Define las caracteristicas que los objetos del mismo tipo van a tener y el comportamiento
+
+El encapsulamiento tambien puede trabajar con los atributos
+
+
+
+
+
+
+
+

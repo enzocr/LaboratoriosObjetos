@@ -1,0 +1,28 @@
+********************************************************************************
+****************************** S E M A N A  4 **********************************
+********************************************************************************
+
+Constante es un campo que es evaluado en tiempo de compilacoin y es implicitamente STATIC
+public final int NUM_LADO;
+
+CONCEPTOS IMPORTANTES POO
+
+1-Sobrecarga de metodos: Si una clase tiene metodos que se llamen igual pero que sus atributos sean distintos en tipo
+nombre o cantidad. Como el CONSTRUCTOR(tiene que tener el nombre de la clase), puede recibir cualquier cantidad de
+parametros. Se llama con "...= new..."
+
+2-Encapsulamiento: Permite esconder el funcionamiento o los atributos de un objeto con el fin de proteger su estado
+
+
+
+
+3-Paquetes: Estructura de organizacion de codigo que me permite, en java, agrupar clases que tienen funcionalidades similares. Es un directorio.
+
+**Herencia: Permite heredar funcionalidad de cualquier otra clase.
+En java no existe la herencia multiple, si la jerarquia
+
+
+
+
+
+

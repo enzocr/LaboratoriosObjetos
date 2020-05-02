@@ -1,0 +1,10 @@
+********************************************************************************
+****************************** S E M A N A  3 **********************************
+********************************************************************************
+
+Herencia: Capacidad que tiene un objeto de pasarle a sus hijos, sus metodos y atributos
+Todas las clases heredan de una clase maestra, que se llama OBJECT, automaticamente cuando creo una instancia, 
+todas las clases heredan de la clase OBJECT, es la funcionalidad que le brindan la clase OBJECT
+
+
+toString():

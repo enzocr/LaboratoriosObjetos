@@ -1,0 +1,15 @@
+*********************************************************************************************
+***************************** C L A S E S   A B S T R A C T A S *****************************
+*********************************************************************************************
+
+Las clases abstractas son aquellas que sirven como base para otras clases y no pueden ser
+instanciadas
+
+Una clase abstracta tiene funcionalidades propias pero declara metodos abstractos que tiene como caracteristicas la falta de implementacion, digamos que esta incompleta, porque tiene metodos que no estan del todo implementados
+
+Sirven para forzar comportamientos
+
+Representan generalizaciones utiles
+
+Declara metodos abstractos(Metodos que no estan definidos). Estos metodos tienen que
+ser definidos en las clases derivadas

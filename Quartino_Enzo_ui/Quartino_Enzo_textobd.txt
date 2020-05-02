@@ -1,0 +1,2 @@
+com.microsoft.sqlserver.jdbc.SQLServerDriver
+jdbc:sqlserver://LAPTOP-EIK6EEL0;DatabaseName=CUENTAS;integratedsecurity=true

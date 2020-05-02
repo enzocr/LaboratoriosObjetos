@@ -1,0 +1,11 @@
+**********************************************************************
+************************ I N T E R F A C E S ************************* 
+**********************************************************************
+
+Las interfaces Java son expresiones puras de dise;o
+Declaran metodos
+Implementan el polimorfismo
+A diferencia de la herencia, permite implementar el polimorfismo entre clases que no tienen relacion entre si
+La herencia permite implementar el polimorfismo solo entre clases que estan relacionadas
+Permite hacer que objetos de diferentes tipos, sean del mismo
+Fuerzan comportamiento, refuerzan el encapsulamiento

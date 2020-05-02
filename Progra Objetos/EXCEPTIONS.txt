@@ -1,0 +1,95 @@
+************************************************************************************************
+*********************************** E X C E P T I O N S ****************************************
+************************************************************************************************
+
+-Las excepciones se acumulan a lo largo de la PILA de llamadas
+
+void main(){
+A();
+
+}
+
+void A(){
+B();
+}
+
+void B(){
+C();
+
+}
+
+Void C(){
+throws new PruebaException
+}
+
+El error, sin ningun metodo le pone catch, se va trasladando hacia el de arriba
+Las procesamiento de metodos es una pila, el ultimo metodo que se ejecuta es el que esta arriba
+
+Si yo tengo un error en el metodo A
+EL RESPONSABLE DE MANEJAR EXCEPCIONES DEBERIA SER LA INTERFAZ DE USUARIO
+Cuando metodo C se presenta error y en el catch tiene un throw, esta diciendole al metodo de arriba que no sabe que hacer
+
+
+como hacer un formulario simple, usando java fx
+ver libreria apache commons
+google guaba
+
+La ejecucion del flujo llega al catch, cuando se imprime se procesa la excepcion
+Se define quien tiene la responsabilidad de procesar la excepcion y quien va a lanzar la excepcion
+A nivel de capa es importante cual capa hace el proceso de la excepcion, tan simple como imprimir un mensaje y
+le dice al usuario cual error es
+Buena practica de poner TRYCATCH siempre al inicio, usar Exception AL PRINCIPIO, mala practica dejar catch en BLANCO
+Y saber debugear
+
+
+try{ 
+	AccessDATAbASE UN AVVbd = new AccessDatabASE();
+	unAccesoDB.generarBaseDates();
+}
+catch(IOException e){
+	out.println(e.getMessage)
+}
+-------------------------------------------------------
+Existe dentro del TRYnCatch que se llama FINALLY
+
+try{
+	lanzarException();
+}
+catch(exception miExc){
+	out.println(miExc.toString())
+};
+
+
+finally{
+	out.println("Ejecutando el bloque finally")
+
+}
+
+---------------------------------------------------------
+**INCLUSION DE THROWSSSSSSS
+Java exige la inclusion de una clausula THROWSS en el encabezado de la declaracion de ciertos, 
+Se hace cuando usted no quiere hacer un TRYnCatch
+No voy a lanzar ni procesar excepcion, la devuelvo
+
+
+***INCLUSION DE THROW
+Para lanzar una excepcion se usa THROW new ClaseDeException(argumento de tipo String);
+
+**JERARQUIAS
+OBJECT
+	THROWABLE----EXCEPTION-RUNTIMEEXCEPTION
+	         -----ERROR, SE OBVIA
+
+UN ERROR NO ES RECUPERABLE, UNA EXCEPTION SI
+
+
+
+
+
+
+
+
+
+
+
+
